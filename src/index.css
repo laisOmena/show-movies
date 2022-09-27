@@ -1,0 +1,27 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-origin: border-box;
+}
+
+:root {
+  --cor-links-principal: #f5d667;
+  --cor-links-principalHover: #b6941a;
+  --cor-background-principal: rgb(22, 10, 31);
+}
+
+body {
+  background-color: var(--cor-background-principal);
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: var(--cor-links-principal);
+  transition: .5s;
+}
+
+a:hover {
+  color: var(--cor-links-principalHover);
+}
