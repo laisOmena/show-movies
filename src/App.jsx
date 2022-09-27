@@ -8,7 +8,6 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <h2>Show Movies</h2>
       <Outlet />
     </div>
   )
