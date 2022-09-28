@@ -37,7 +37,7 @@ const Movie = () => {
   }, []);
 
   return ( 
-    <div>
+    <div className='movie-page'>
       {movie && (
         <>
           <MovieCard movie={movie} showLink={false} />
